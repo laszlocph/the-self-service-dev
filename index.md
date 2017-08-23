@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+---
+layout: default
+---
 
-You can use the [editor on GitHub](https://github.com/laszlocph/the-self-service-dev/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+With the recent innovation in the container space more and more teams are able to build those awesome self-service developer experiences that previously were only available for devs of the Facebooks and Googles, or users of opinionated Paas platforms like Heroku. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Developers are no longer in the mercy of ops people (nor ops people are pulled away from their important work to support creating yet another microservice).
 
-### Markdown
+And while many companies tried achieving this experience in the past with custom scripting and VMs, containers and orchestrators like Kubernetes is really standardizing the space, sparing hundreds of lines of glue code that held those systems together.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+ "The self-service developer" is a mission driven site that is meant to be a 
 
-# Header 1
-## Header 2
-### Header 3
+* a point of reference for people who are trying to convince their bosses 
+* a goto place for people who are looking for inspiration 
+* a place for curious people who like to see how others do it
+ 
 
-- Bulleted
-- List
+<br/> 
+<br/>
+<br/>
 
-1. Numbered
-2. List
+video 1 with brief text
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/laszlocph/the-self-service-dev/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+video 2 with brief text
+ 
