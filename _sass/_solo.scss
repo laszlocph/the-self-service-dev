@@ -13,6 +13,7 @@ html {
 body {
   margin: 0 0 5rem;
   color: #333;
+  background-color: #eee;
 }
 
 a {
@@ -231,7 +232,11 @@ h2 {
   }
 }
 
+.intro {
+  font-family: sans-serif;
+}
+
 .videos h3 {
-  margin: 0 0;
+  margin: 0 0 .5rem 0;
 }
 
