@@ -141,7 +141,7 @@ pre > code {
 }
 
 .container {
-  max-width: 30rem;
+  max-width: 60rem;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -158,7 +158,7 @@ pre > code {
   text-align: center;
 }
 
-@media (min-width: 30rem) {
+@media (min-width: 45rem) {
   .header h1 {
     font-size: 7rem;
   }
@@ -170,14 +170,14 @@ pre > code {
   background: -webkit-linear-gradient(to right, #43C6AC, #F8FFAE);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #43C6AC, #F8FFAE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
 
-  padding: 4rem 0 13rem;
+  padding: 4rem 0 5rem;
   position: relative;
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 }
 
-@media (min-width: 30rem) {
+@media (min-width: 45rem) {
   .header {
-    padding: 2rem 0 13rem;
+    padding: 5rem 0 2rem;
   }
 }
 
@@ -199,7 +199,7 @@ h2 {
   width: 20rem;
 }
 
-@media (min-width: 30rem) {
+@media (min-width: 45rem) {
   .center {
     width: 30rem;
   }
@@ -211,8 +211,27 @@ h2 {
   padding: 0 1rem;
 }
 
-@media (min-width: 30rem) {
-  .header {
-    padding-top: 10rem;
+.videos {
+  position: relative;
+  text-align: center;
+}
+
+@media screen and (min-width: 75rem ) {
+  .left-video {
+    margin-right: 30rem;
+    text-align: left;
+  }
+  
+  .right-video {
+    text-align: left;
+    width: 30rem;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }
+
+.videos h3 {
+  margin: 0 0;
+}
+
