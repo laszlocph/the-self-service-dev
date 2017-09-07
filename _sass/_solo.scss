@@ -174,7 +174,6 @@ pre > code {
 
   padding: 4rem 0 5rem;
   position: relative;
-  margin-bottom: 2rem;
 }
 
 @media (min-width: 45rem) {
@@ -242,5 +241,46 @@ h2 {
   margin: 0 0 .5rem 0;
 }
 
+.equtation {
+  text-align: center;
+  margin-bottom: 5em;
+  padding: 3em 0 1em 0;
+  background-color: #efefef;
+}
+
+.equtation div {
+  max-width: 79rem;
+  margin: 0 auto;
+}
+
+.equtation ul {
+  list-style-type: none;
+}
+
+.equtation li {
+  list-style-type: none;
+}
+
+@media (min-width: 85rem) {
+  .equtation li {
+    display: inline;
+  }
+}
+
+.black {
+  background-color: black;
+  color: white;
+  padding: 0 0.3em
+}
+
+.red {
+  background-color: red;
+  color: white;
+  padding: 0 0.3em
+}
+
+.sign {
+  font-weight: bold;
+}
 
 
