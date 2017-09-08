@@ -7,6 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://use.fontawesome.com/309a9300a3.js"></script>
   
+  <meta content="{{ page.title }}" property="og:title">
+  <meta content="website" property="og:type">
+  <meta content="{{ site.url }}/ssd.png" property="og:image">
+  <meta content="{{ site.url }}{{ page.link }}" property="og:url">
+  <meta content="{{ site.tag_text }}" property="og:site_name">
+  <meta content="{{ page.excerpt }}" property="og:description">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@selfservicedev">
+  <meta name="twitter:creator" content="@selfservicedev">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.excerpt }}">
+  <meta name="twitter:image" content="{{ site.url }}/ssd.png">
+
   <title>{{ site.title }}</title>
   <link rel="stylesheet" href="css/main.css?11">
 {% include head.html %}
